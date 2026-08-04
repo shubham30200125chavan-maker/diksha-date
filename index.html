@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>A Little Surprise ❤️</title>
+    <title>For Diksha ❤️</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -17,239 +21,44 @@
 
 <body>
 
-<!-- ================= LOADER ================= -->
+    <!-- Animated Background -->
+    <div class="background"></div>
 
-<div id="loader">
+    <!-- Floating Hearts -->
+    <div id="hearts"></div>
 
-    <div class="loader-heart">❤️</div>
+    <!-- Cursor Glow -->
+    <div id="cursorGlow"></div>
 
-    <h2>Loading something special...</h2>
+    <!-- INTRO SECTION -->
+    <section id="intro" class="page active">
 
-</div>
+        <div class="glass-card">
 
-<!-- ================= BACKGROUND ================= -->
+            <h3 class="subtitle">
+                Just for you ❤️
+            </h3>
 
-<div class="background"></div>
+            <h1 class="title">
+                Hey Diksha
+            </h1>
 
-<div class="hearts"></div>
+            <p class="description">
+                I made something special...
+                <br>
+                Just for you.
+            </p>
 
-<div id="cursor-glow"></div>
-
-<!-- ================= INTRO ================= -->
-
-<section id="intro" class="page active">
-
-    <div class="glass">
-
-        <h3 class="small-title">
-            Just for you...
-        </h3>
-
-        <h1 class="main-title">
-            Hey Diksha ❤️
-        </h1>
-
-        <p class="typewriter" id="introText"></p>
-
-        <button class="primary-btn" id="continueBtn">
-            Continue →
-        </button>
-
-    </div>
-
-</section>
-
-<!-- ================= STORY ================= -->
-
-<section id="story" class="page">
-
-    <div class="glass">
-
-        <h2>Before I ask something...</h2>
-
-        <p id="storyText"></p>
-
-        <button class="primary-btn" id="nextBtn">
-            Next ❤️
-        </button>
-
-    </div>
-
-</section>
-
-<!-- ================= PHOTO GALLERY ================= -->
-
-<section id="gallery" class="page">
-
-    <div class="glass">
-
-        <h2>Our Beautiful Memories ❤️</h2>
-
-        <div class="photo-grid">
-
-            <img src="assets/photos/1.jpg">
-
-            <img src="assets/photos/2.jpg">
-
-            <img src="assets/photos/3.jpg">
-
-            <img src="assets/photos/4.jpg">
-
-            <img src="assets/photos/5.jpg">
-
-            <img src="assets/photos/6.jpg">
-
-        </div>
-
-        <button class="primary-btn" id="galleryNext">
-            One Last Question →
-        </button>
-
-    </div>
-
-</section>
-
-<!-- ================= QUESTION ================= -->
-
-<section id="question" class="page">
-
-    <div class="glass">
-
-        <h1>
-
-            Are you free on
-
-            <br>
-
-            7 September?
-
-        </h1>
-
-        <div class="buttons">
-
-            <button id="yesBtn">
-                Yes ❤️
-            </button>
-
-            <button id="noBtn">
-                No 🙈
+            <button id="startBtn">
+                Begin Our Story →
             </button>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
-
-<!-- ================= PROPOSAL ================= -->
-
-<section id="proposal" class="page">
-
-    <div class="glass">
-
-        <h1>
-
-            Will you go on a date with me?
-
-        </h1>
-
-        <h3>
-
-            📅 7 September
-
-            <br>
-
-            🕚 11:00 AM
-
-            <br>
-
-            📍 Bandra → Worli
-
-        </h3>
-
-        <div class="buttons">
-
-            <button id="acceptBtn">
-
-                YES ❤️
-
-            </button>
-
-            <button id="acceptBtn2">
-
-                ABSOLUTELY ❤️
-
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= SUCCESS ================= -->
-
-<section id="success" class="page">
-
-    <div class="glass final-card">
-
-        <h1>
-
-            🎉 YAYYYYYY ❤️
-
-        </h1>
-
-        <h2>
-
-            Date Confirmed
-
-        </h2>
-
-        <p>
-
-            Thank you Diksha ❤️
-
-            <br><br>
-
-            I can't wait to spend an amazing day with you.
-
-        </p>
-
-        <div class="details">
-
-            📅 7 September
-
-            <br>
-
-            🕚 11:00 AM
-
-            <br>
-
-            📍 Bandra → Worli
-
-        </div>
-
-        <h2>
-
-            — Shubham ❤️
-
-        </h2>
-
-    </div>
-
-</section>
-
-<!-- Confetti -->
-<canvas id="confetti"></canvas>
-
-<!-- Music -->
-<audio id="bgMusic" loop>
-
-    <source src="assets/music/song.mp3" type="audio/mp3">
-
-</audio>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
